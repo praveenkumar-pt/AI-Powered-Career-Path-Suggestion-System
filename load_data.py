@@ -46,38 +46,3 @@ if __name__ == "__main__":
     load_and_inspect_data()
 
 
-
-# import pandas as pd 
-# import os
-
-# def load_and_inspect_data():
-#     print("STEP 1: LOADING DATA")
-#     print("-" * 50)
-
-#     # Loading Dataset file...
-#     file_name = r'C:\Users\Praveen\Desktop\Internship\Carrer_path_Suggestion\Data\career_dataset.xlsx'
-#     df = pd.read_excel(file_name)
-
-#     if not os.path.exists(file_name):
-#         print(f"Error: Could not find '{file_name}'. Please ensure it is in the same folder.")
-#         return
-#     # Finding Dataset Rows and Columns inluding column names
-#     print(f"\nData Shape: {df.shape[0]} rows and {df.shape[1]} columns.")
-#     print(f"Column Names: {list(df.columns)}")
-#     print("\nSample Data (First 3 rows):")
-#     print(df.head(3).to_string())
-
-#     #Finding Missing data
-#     missing_data = df.isnull().sum()
-#     print("\nMissing values in each column:")
-#     print(missing_data.to_string())
-
-#     # Cleaning and Converting .xlsx to .csv after dataset cleaning...
-#     df_clean = df.dropna()
-#     df_clean.to_csv('cleaned_careers.csv', index=False)
-#     print("\nSuccess: Cleaned data saved...")
-    
-# if __name__ == "__main__":
-#     load_and_inspect_data()
-
-
