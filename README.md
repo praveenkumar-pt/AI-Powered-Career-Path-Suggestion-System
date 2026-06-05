@@ -109,19 +109,22 @@ python step5_predict.py
 **Input Skills**
 
 ```text
-Python, SQL, Machine Learning, Data Visualization, Communication
+Input Skills : Java, Kotlin, Android Studio, UI/UX, Mobile APIs
 ```
 
 **Output**
 
 ```text
-Top Match: Data Scientist
-Cluster: Data & Analytics
+Career Category:
+Mobile App Development
 
-Alternative Suggestions:
-- Machine Learning Engineer
-- Data Analyst
-- Business Intelligence Analyst
+Best Role:
+Android Developer
+
+Suggested Roles:
+• Flutter Developer
+• React Native Developer
+• iOS Developer
 ```
 
 ## Key Learnings
