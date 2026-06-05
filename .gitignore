@@ -1,0 +1,24 @@
+# Virtual Environment
+venv/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# ML Models & Artifacts
+*.pkl
+
+# Training Data Artifacts
+X_train_numeric.pkl
+X_test_numeric.pkl
+y_train.pkl
+y_test.pkl
+
+# IDE Files
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
